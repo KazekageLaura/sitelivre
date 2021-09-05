@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Veg life</title>
+</head>
+<body>
+    <header>
+        <div id="logo"><img src="imagens/platinha-logo.png"></div>
+        <div id="ident"><h1 id="titulo">VEG LIFE</h1></div>
+        <nav>
+            <ul>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Receitas veg</a></li>
+                <li><a href="">Como suprir as proteínas?</a></li>
+            </ul>
+        </nav>
+        <div id="icon-menu"><img src="imagens/menu-removebg-preview.png"/></div>
+    </header>
+    <main>
+        <section id="texto" class="container">
+        <div>
+            <h1 id="considere">Por que devo considerar o veganismo?</h1>
+            <p>Além da crueldade animal, uma das mais sérias consequências do consumo de carne, leite e ovos são os graves impactos ambientais que sua produção causa.</p>
+            <link href="https://youtu.be/_tlABBcnVFM"/>
+        </div>
+        </section>
+        <section id="imagens" class="container">
+            <div id="foto"><img src="imagens/impactos-ambientais.jpg"/></div>  
+        </div>  
+        </section>
+        <section>
+            <div id=text>
+                <p>Um levantamento do Conselho Empresarial Brasileiro para o Desenvolvimento Sustentável (CEBDS) em conjunto com a Agência Alemã para a Cooperação Internacional (GIZ) mostrou que, para cada R$1 milhão faturado pela pecuária, são gerados R$22 milhões em impactos ambientais.</p>
+
+            </div>
+            <div id=dieta>
+            <p>Se você está pensando em adotar uma dieta vegana ou vegetariana, pondere: essa mudança de hábito não precisa acontecer de uma só vez. Você pode passar por um processo de transição, cortando aos poucos a carne. Leve em consideração suas crenças pessoais antes de tomar essa decisão. O primeiro passo pode ser a escolha de um ou dois dias durante a semana para não consumir proteína animal. Essa é uma forma de se habituar gradualmente com a nova dieta, explorando diferentes receitas e alimentos. Afinal, ser vegetariano não significa abrir mão do sabor das refeições. Muito pelo contrário, os legumes e verduras podem te surpreender. Visite um restaurante vegetariano e perceba a quantidade de pratos e possibilidades das receitas sem carne! Permita-se explorar e conhecer novos alimentos, as diferentes formas de preparo e se surpreenda com a alimentação vegetariana.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        
+
+    </footer>
+    <script>
+        document.querySelector("nav").style.display="none";
+        icon=document.querySelector("#icon-menu");
+        icon.onclick= function(){
+            nav= document.querySelector("nav");
+            if(nav.style.display=="none")
+                nav.style.display="block";
+            else
+                nav.style.display="none";
+        }
+    </script>
+</body>
+</html>

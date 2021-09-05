@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    display:flex;
+    width:100vw;
+    justify-content:space-around;
+    background-color:rgb(215, 255, 221);
+    border:1px solid #000;
+}
+header #logo{
+    width:20vw;
+}
+header #logo img{
+    width:100%;
+    margin-left:10px;
+}
+header #icon-menu{
+    width:20vw;
+}
+header #icon-menu img{
+    width:25vw;
+    margin-top: 10px;
+    margin-bottom:8px;
+}
+header #ident{
+    width:50%;
+    margin-top:2px;
+}
+header #ident h1{
+    font-size:26px;
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgba(21, 113, 35, 1);
+}
+nav{
+    position:absolute;
+    width:100vw;
+    background-color:rgba(151, 216, 212, 1);
+    margin-top:10vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:50px;
+}
+nav li{
+    list-style:none;
+    border: 1px solid #000;
+}
+nav a{
+    font-size:24px;
+    text-decoration:none;
+}
+nav ul li a{
+    font-size: 20px;
+    margin:20px;
+    color:#000;
+}
+.container{
+    background-color:rgba(244, 255, 120, 0.76);;
+}
+#considere{
+    font-family:sans-serif;
+}
+h1{
+    color:rgba(61, 128, 38, 1);
+    margin-left:15px;
+    margin-top:20px;
+    font-size:25px;
+}
+p{
+    margin:10px;
+    margin-left:20px;
+    margin-right: 20px;
+    font-family:sans-serif;
+}
+#texto{
+    background-color:rgba(244, 255, 120, 0.76);
+    
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#imagens img{
+    display:inline;
+    justify-content:space-around;
+    width:100%;
+    height:100%;
+    margin-top:10px;
+    margin-bottom:10px;
+  
+}
+#text{
+    background-color:rgba(158, 255, 162, 0.83);
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+#dieta{
+    display:none;
+}
+@media only screen and (min-width:980px){
+header{
+    background-image:url(https://i.pinimg.com/1200x/b1/70/b2/b170b2c59ad92efdc5a1a1babe62d7c8.jpg);
+}
+header #logo{
+    display:none;
+    width:10vw;
+}
+header #icon-menu{
+    width:5vw;
+}
+header #icon-menu img{
+    width:10vw;
+    margin-top: 20px;
+    margin-bottom:8px;
+}
+#texto{
+    background-color:rgba(244, 255, 120, 0.76);
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#imagens img{
+    justify-content:space-around;
+    width:50%;
+    height:50%;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:25%;
+    background-color:rgba(244, 255, 120, 0.76);
+}
+#text{
+    background-color:rgba(244, 255, 120, 0.76);
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#dieta{
+    display: block;
+    background-color:rgba(244, 255, 120, 0.76);
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header #ident h1{
+    margin-top:50px;
+    margin-left:50%;
+}
+#considere{
+    text-align:center;
+}
+nav{
+    background-color:rgb(215, 255, 221);
+}
+}
